@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#Geschiedenis {
+  background: linear-gradient(270deg, #fffa00, #ff0000);
+  background-size: 400% 400%;
+  font-family: 'Ubuntu';
+  animation: AnimationName 30s ease infinite;
+
+}
+
+#badges {
+  background: linear-gradient(270deg, #00ff85, #67ff00);
+  background-size: 400% 400%;
+  font-family: 'Ubuntu';
+  animation: AnimationName 30s ease infinite;
+}
+
+body {
+  font-family: 'Ubuntu';
+  background: linear-gradient(270deg, #0081ff, #00fff6);
+  background-size: 400% 400%;
+  animation: AnimationName 30s ease infinite;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 90px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Ubuntu';
+  text-align: center;
+  margin-top: 0px;
+}
+
+iframe {
+  margin-left: 400px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#mySidenav {
+  position: fixed;
+}
+
+.badge {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
